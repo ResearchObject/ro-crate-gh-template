@@ -28,10 +28,13 @@
         }
       ],
       "publisher": {
-        "@id": "https://ror.org/04dkp1p98"
+        "@id": "https://ror.org/027m9bs27"
       },
       "funder": {
         "@id": "https://research-and-innovation.ec.europa.eu/"
+      },
+      "funding": {
+        "@id": "https://doi.org/10.3030/824087"
       },
       "license": {
         "@id": "http://spdx.org/licenses/CC-BY-4.0"
@@ -94,12 +97,22 @@
     {
       "@id": "https://research-and-innovation.ec.europa.eu/",
       "name": "European Commission",
-      "description": "Example funder, replace with the organization that funded this crate publication"
+      "description": "Example funder, replace with the organization that funded this crate publication (if any). See https://search.crossref.org/funding"
+    },
+    {
+      "@id": "https://doi.org/10.3030/824087",
+      "@type": "Grant",
+      "name": "Grant H2020-INFRAEOSC-2018-2 824087",
+      "funder": {
+        "@id": "https://research-and-innovation.ec.europa.eu/"
+      },
+      "url": "https://www.eosc-life.eu/",
+      "description": "Replace with your grant code/URLs where available. Use local @id (#grant824087) if your grant does not have a landing page or PID."
     },
     {
       "@id": "http://spdx.org/licenses/CC-BY-4.0",
       "@type": "CreativeWork",
-      "description": "This is the suggested license for new RO-Crates that don't contain software. To apply, simply delete this description line. Attribution should be included by your use of 'author' and 'publisher' in the rest of this file. See https://spdx.org/licenses/ for other open licenses, or link to your copyright statement for closed licenses.  Note that individual files may override the license by having their own 'license' attribute, see https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#licensing-access-control-and-copyright",
+      "description": "This is the suggested license for new RO-Crates that don't contain software (for scripts and workflows, try https://spdx.org/licenses/Apache-2.0 or https://spdx.org/licenses/GPL-3.0-or-later ) To apply, simply delete this description line. Attribution should be included by your use of 'author' and 'publisher' in the rest of this file. See https://spdx.org/licenses/ for other open licenses, or link to your copyright statement for closed licenses.  Note that individual files may override the license by having their own 'license' attribute, see https://www.researchobject.org/ro-crate/1.1/contextual-entities.html#licensing-access-control-and-copyright",
       "identifier": "CC-BY-4.0",
       "name": "Creative Commons Attribution 4.0 International",
       "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -148,7 +161,7 @@
     {
       "@id": "#DataCapture_temperature",
       "@type": "CreateAction",
-      "name": "Captured by thermometer",
+      "name": "CSV file was captured by thermometer",
       "description": "Example provenance of how some equipment was used by a person to create data entity. https://www.researchobject.org/ro-crate/1.1/provenance.html#equipment-used-to-create-files",
       "agent": {
         "@id": "https://orcid.org/0000-0002-1825-0097"
