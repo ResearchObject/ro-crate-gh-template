@@ -9,7 +9,11 @@ You may need to use [Git LFS](https://docs.github.com/en/repositories/working-wi
 
 ## Using this template
 
-To use this template, clone this repository and modify `ro-crate-metadata.json` according to the [RO-Crate specifications](https://w3id.org/ro/crate/1.1). Note that the template contain several examples you may want to delete or modify. Most attributes shown are optional and can also be deleted.
+To use this template, click the **Uee this template** butto to clone this repository.
+
+Modify `ro-crate-metadata.json` according to the [RO-Crate specifications](https://w3id.org/ro/crate/1.1). Note that the template contain several examples you may want to delete or modify. Most attributes shown are optional and can also be deleted.
+
+In the new repository, go to Settings and GitHub Pages to select _"Build from GitHub Actions"_. Any following commits to the `main` branch should now be published to `https://USERNAME.github.io/REPO` with the generated RO-Crate preview acting as `index.html`.
 
 ## License
 
