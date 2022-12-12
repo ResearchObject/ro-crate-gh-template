@@ -13,7 +13,11 @@ To use this template, click the **Uee this template** butto to clone this reposi
 
 Modify `ro-crate-metadata.json` according to the [RO-Crate specifications](https://w3id.org/ro/crate/1.1). Note that the template contain several examples you may want to delete or modify. Most attributes shown are optional and can also be deleted.
 
-In the new repository, go to Settings and GitHub Pages to select _"Build from GitHub Actions"_. Any following commits to the `main` branch should now be published to `https://USERNAME.github.io/REPO` with the generated RO-Crate preview acting as `index.html`.
+In the new repository, go to **Settings**, **GitHub Pages** and under _Source_, select **GitHub Actions**. 
+
+![image](https://user-images.githubusercontent.com/253413/207146356-27138510-5d2e-4ee0-af6d-9c14f0e26f9f.png)
+
+Any following commits to the `main` branch should now be published to `https://USERNAME.github.io/REPO` with the generated RO-Crate preview acting as `index.html`.
 
 ## License
 
