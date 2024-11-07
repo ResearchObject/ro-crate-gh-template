@@ -9,7 +9,7 @@ You may need to use [Git LFS](https://docs.github.com/en/repositories/working-wi
 
 ## Using this template
 
-To use this template, click the **Uee this template** butto to clone this repository.
+To use this template, click the **Use this template** butto to clone this repository.
 
 Modify `ro-crate-metadata.json` according to the [RO-Crate specifications](https://w3id.org/ro/crate/1.1). Note that the template contain several examples you may want to delete or modify. Most attributes shown are optional and can also be deleted.
 
